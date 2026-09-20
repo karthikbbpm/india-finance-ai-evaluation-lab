@@ -1,0 +1,82 @@
+{
+  "case_id": "INDAS115-TM-001",
+  "title": "Time-and-materials services with administrative approval and service credit",
+  "synthetic": true,
+  "reporting_framework": "Ind AS 115",
+  "reporting_date": "2026-07-31",
+  "currency": "INR",
+  "supplier": {
+    "name": "TechAxis Solutions Private Limited"
+  },
+  "customer": {
+    "name": "Orion Retail Limited"
+  },
+  "contract": {
+    "start_date": "2026-07-01",
+    "end_date": "2027-06-30",
+    "rate_per_consultant_day": 8000,
+    "billing_frequency": "monthly",
+    "approved_timesheets_invoiceable_immediately": true,
+    "approval_is_administrative": true,
+    "customer_simultaneously_receives_and_consumes_benefits": true,
+    "daily_services_substantially_same": true,
+    "same_pattern_of_transfer": true,
+    "collection_probable": true,
+    "significant_financing_component": false,
+    "amounts_exclude_taxes": true
+  },
+  "july_service_data": [
+    {
+      "consultant": "A",
+      "approved_days": 22,
+      "delivered_pending_approval_days": 0,
+      "total_delivered_days": 22
+    },
+    {
+      "consultant": "B",
+      "approved_days": 20,
+      "delivered_pending_approval_days": 2,
+      "total_delivered_days": 22
+    },
+    {
+      "consultant": "C",
+      "approved_days": 18,
+      "delivered_pending_approval_days": 2,
+      "total_delivered_days": 20
+    },
+    {
+      "consultant": "D",
+      "approved_days": 22,
+      "delivered_pending_approval_days": 0,
+      "total_delivered_days": 22
+    }
+  ],
+  "totals": {
+    "approved_days": 82,
+    "delivered_pending_approval_days": 4,
+    "total_delivered_days": 86
+  },
+  "service_credit": {
+    "uptime_threshold_percent": 99.5,
+    "actual_uptime_percent": 99.2,
+    "credit_percent": 5,
+    "credit_is_enforceable": true,
+    "allocation": "proportionate to every eligible consultant-day"
+  },
+  "evidence_for_pending_days": [
+    "internal access logs",
+    "daily work records",
+    "project manager certification",
+    "subsequent customer approval"
+  ],
+  "required_outputs": [
+    "performance obligation analysis",
+    "timing of revenue recognition",
+    "measure of progress",
+    "revenue calculation",
+    "receivable and contract asset classification",
+    "journal entries",
+    "evidence checklist",
+    "review triggers"
+  ]
+}
